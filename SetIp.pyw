@@ -19,4 +19,4 @@ nic.EnableStatic(IPAddress=[ip],SubnetMask=[subnetmask])
 nic.SetGateways(DefaultIPGateway=[gateway])
 
 # Set dns
-os.system('netsh interface ip set dns "Local Area Connection" static ' + dns)
+# os.system('netsh interface ip set dns "Local Area Connection" static ' + dns)
